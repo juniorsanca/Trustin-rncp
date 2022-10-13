@@ -56,7 +56,8 @@
             }
             .Trustin-home-banner__1banner{
                 width: 50%;
-                background-color: red;
+                margin-top: 1px;
+                background-color: black;
             }
             .Trustin-home-banner__2banner{
                 width: 50%;
@@ -65,9 +66,9 @@
             .Trustin-home-banner1-div1{
                 display: flex;
                 position: absolute;
-                bottom: 0;
                 width: 50%;
-                height: 50%
+                height: 40%;
+                bottom: 0;
             }
             .Trustin-home-banner1-div1__image1{
                 width: 50%;
@@ -78,15 +79,81 @@
             }
             .Trustin-home-banner1-divs2__images{
                 background-color:orange;
+                height: 50%;
+            }
+            .Trustin-home-banner1-divs3__images{
+                height: 50%;
             }
             .Trustin-home-banner1-divs3__images{
                 background-color:pink
             }
 
+            .Trustin-home-banner1__button{
+                background-color: black;
+                color: #FFF;
+                padding: 10px;
+                border-width: thin;
+            }
+            .Trustin-home-banner1__div2{
+                margin: 105px;
+            }
+            .Trustin-home-banner1__title{
+                font-size: xx-large;
+                color: #fff;
+            }
+            .Trustin-home-banner1__paragraph{
+                font-size: large;
+                color: #fff;
+            }
+            .Trustin-home-banner1-div1-image1__img1{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+            .Trustin-home-banner1-div1-image1__img2{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+            .Trustin-home-banner1-div1-image1__img3{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+            .Trustin-home-banner1-div1-image1__img4{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+            /*---------[ MEDIA QUERIES ]---------*/
+            @media only screen and (max-width: 1200px){
+                .Trustin-home-banner1__div2{
+                    margin: 85px;
+                }
+           
+            }
+            @media only screen and (max-width: 867px){
+                .Trustin-home-banner1__div2{
+                    margin: 55px;
+                }     
+                .Trustin-home-banner1-div1 {
+                display: flex;
+                position: absolute;
+                width: 50%;
+                height: 40%;
+                bottom: -4%;
+                }       
+            }
+            @media only screen and (max-width: 768px){
+                .Trustin-home-banner1-div1{
+                    bottom: -3.7%;
+                }
+            }
         </style>
     </head>
     <body class="trustin-home__body">
-        <div class="Trustin-home__menu">
+        <nav class="Trustin-home__menu">
             <div class="Trustin-home-menu__Logo-div">
                 <h4 class="Trustin-home-menu__Logo"><span class="Trustin-home-menu-Logo__span">TRUST'IN</span></h4>
             </div>
@@ -98,13 +165,14 @@
                     <li>Compte</li>
                 </ul>
             </div>
-        </div>
+        </nav>
+        <!--<label for="toggle" class="label-hamburger">☰</label>-->
 
         <div class="Trustin-home-banner__div">
             <div class="Trustin-home-banner__1banner">
                 <div class="Trustin-home-banner1__div">
-                    <div>
-                    <h3 class="Trustin-home-banner1__title">Le lorem ipsum est, en imprimerie</h3>
+                    <div class="Trustin-home-banner1__div2">
+                    <h3 class="Trustin-home-banner1__title">Le lorem ipsum</h3>
                     <p class="Trustin-home-banner1__paragraph"> 
                         Le lorem ipsum est, en imprimerie, 
                         une suite de mots sans signification 
@@ -116,19 +184,15 @@
 
                     <div class="Trustin-home-banner1-div1">
                         <div class="Trustin-home-banner1-div1__image1">
-                            <img src="https://img.lemde.fr/2020/09/29/0/0/1200/1500/1328/0/45/0/40f4038_56266-3189930.jpg" class="css-class" alt="alt text" 
-                            style=" width: 100%;
-                                    height: 100%;
-                                    object-fit: cover;
-                                    object-position: 50% 50%; ">
+                            <img src="https://img.lemde.fr/2020/09/29/0/0/1200/1500/1328/0/45/0/40f4038_56266-3189930.jpg" class="Trustin-home-banner1-div1-image1__img1" alt="alt text" >
                         </div>
 
                         <div class="Trustin-home-banner1-divs23__images">
                             <div class="Trustin-home-banner1-divs2__images">
-                                <img src="https://img.lemde.fr/2020/09/29/0/0/1200/1500/1328/0/45/0/40f4038_56266-3189930.jpg" class="css-class" alt="alt text" style=" width: 50%;">
+                                <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg" class="Trustin-home-banner1-div1-image1__img2" alt="alt text" >
                             </div>
                             <div class="Trustin-home-banner1-divs3__images">
-                                <img src="https://img.lemde.fr/2020/09/29/0/0/1200/1500/1328/0/45/0/40f4038_56266-3189930.jpg" class="css-class" alt="alt text" style=" width: 50%;">
+                                <img src="https://png.pngtree.com/illustrations/20190327/ourmid/pngtree-cure-starry-sky-night-sky-star-png-image_38228.jpg" class="Trustin-home-banner1-div1-image1__img3" alt="alt text">
                             </div>
                         </div>
 
@@ -137,11 +201,7 @@
                 </div>
 
             <div class="Trustin-home-banner__2banner">
-                <img src="https://img.lemde.fr/2020/09/29/0/0/1200/1500/1328/0/45/0/40f4038_56266-3189930.jpg" class="css-class" alt="alt text" 
-                style="     width: 100%;
-                            height: 100%;
-                            object-fit: cover;
-                            object-position: 50% 50%;">
+                <img src="https://img.lemde.fr/2020/09/29/0/0/1200/1500/1328/0/45/0/40f4038_56266-3189930.jpg" class="Trustin-home-banner1-div1-image1__img4" alt="alt text" >
             </div>
         </div>
 
