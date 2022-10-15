@@ -4,8 +4,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
-
+        <title>TRUST'IN</title>
+        <meta name="viewport" content="width=device-width" />
         <!-- Fonts -->
         <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
@@ -128,36 +128,73 @@
             .Trustin-home-menu-Logo__span{
                 z-index: 20;
             }
-            /*---------[ MEDIA QUERIES ]---------*/
             .trustin-home-body__toggle{
-                    display: none; 
-                }
-            /* @media only screen and (max-width: 1200px){
-                .Trustin-home-banner1__div2{
-                    margin: 85px;
-                }
-            } */
-            @media only screen and (max-width: 867px){
-                /* .Trustin-home-banner1__div2{
-                    margin: 55px;
-                }      */
-                .Trustin-home-banner1__div2 {
-                    margin: 40px;
-                }
-                .Trustin-home-banner1-div1 {
-                    display: flex;
-                    position: absolute;
-                    width: 50%;
-                    height: 40%;
-                    bottom: -4%;
-                }       
+                display: none; 
             }
+            /*--------[ SECTION2 ]--------*/
+            .Section2-div{
+                background-color:#000;
+                height: 55vh;
+            }
+            .Section2__title{
+                color: #fff;
+                text-align: center;
+                margin: 0;
+                font-size: 75px;
+                padding: 10px;
+            }
+            .Section2-big__title{
+                color: #fff;
+                text-align: center;
+                margin: 0;
+                font-size: 137px;
+            }
+            .Section2__description{
+                color: #fff;
+                margin: 0px;
+                text-align: center;
+            }
+            .Section2-images{
+                width: 100%;
+                display: flex;
+            }
+            .Section2-images_1{
+                width: 25%;
+            }
+            .Section2-images_2{
+                width: 25%;
+            }
+            .Section2-images_3{
+                width: 25%;
+            }
+            .Section2-images_4{
+                width: 25%;
+            }
+            @media only screen and (max-width: 1440px){
+            .Section2{
+                background-color:#000;
+                height: 50vh;
+            }
+            .Section2-big__title {
+                color: #fff;
+                text-align: center;
+                margin: 0;
+                font-size: 97px;
+            }
+            }
+            /*---------[ MEDIA QUERIES ]---------*/
             @media only screen and (max-width: 768px){
                 .trustin-home-body__toggle{
                     display: block;
                     cursor: pointer;
                     position: relative;
                     z-index: 20;
+                }
+                .Trustin-home-banner1__div2 {
+                    margin: 43px;
+                }
+                .Trustin-home-banner1-div1 {
+                    bottom: -1.7%;
                 }
                 .trustin-home-body-toggle__open {
                     display: block;
@@ -185,11 +222,7 @@
                     padding-left: 10%;
                 }
                 .Trustin-home-menu__Logo-div{
-                    /* position: relative; */
                     z-index: 20;
-                }
-                .Trustin-home-banner1-div1{
-                    bottom: -3.7%;
                 }
                 .Trustin-home-menu-liste__menu {
                     position: absolute;
@@ -197,26 +230,122 @@
                     left: 0px;
                     width: 50%;
                     height: 90vh;
-                    background: red;
+                    background: #000;
                     flex-direction: column;
                     padding: 2rem;
                     justify-content: space-around;
                     transform: translateX(-100%);
                     transition: transform 1s;
+                    z-index: 20;
                 }
                 .open .Trustin-home-menu-liste__menu {
                     transform: translateX(0);
                 }
+
+                /*------[SECTION2]-----*/
+                .Section2-big__title {
+                    color: #fff;
+                    text-align: center;
+                    margin: 0;
+                    font-size: 68px;
                 }
+                .Section2__title {
+                    color: #fff;
+                    text-align: center;
+                    margin: 0;
+                    font-size: 45px;
+                    padding: 10px;
+                }
+                .Section2{
+                    background-color: #000;
+                    height: 25vh;
+                }
+                .Section2-div{
+                    height: 40vh;
+                }
+            }
                 @media only screen and (max-width: 425px){
-                    .Trustin-home-banner1__div2 {
-                        margin: 25px;
+                    .Trustin-home-banner__1banner {
+                        width: 100%;
+                        margin-top: 1px;
+                        background-color: black;
                     }
-                    .Trustin-home-banner1__title {
+                    .Trustin-home-banner1-div1 {
+                        display: flex;
+                        position: relative;
+                        width: 100%;
+                    }
+                    .Trustin-home-banner1__paragraph {
                         font-size: 15px;
                         color: #fff;
                     }
-                }
+                    .Trustin-home-banner1__title {
+                        font-size: 21px;
+                        color: #fff;
+                    }
+                    .Trustin-home-banner1__div2 {
+                        margin: 25px;
+                    }
+                    #flex { 
+                        display: flex; 
+                        flex-direction: column;
+                        }
+                        #flex > #Trustin-home-banner-1banner__id1 { order: 2; }
+                        #flex > #Trustin-home-banner-1banner__id2 { order: 1; }
+                    .Trustin-home-banner1-div1 {
+                        height: 40%;
+                        bottom: 0;
+                    } 
+                    /*------[SECTION2]-----*/
+                    .Section2__description {
+                        color: #fff;
+                        margin: 0px;
+                        text-align: center;
+                        font-size: 10px;
+                    }
+                    .Section2-big__title {
+                        color: #fff;
+                        text-align: center;
+                        margin: 0;
+                        font-size: 29px;
+                    }
+                    .Section2__title {
+                        color: #fff;
+                        text-align: center;
+                        margin: 0;
+                        font-size: 23px;
+                        /* padding: 10px; */
+                    }
+                    .Trustin-home-banner__div{
+                        height: auto;
+                    }
+                    .Trustin-home-banner__2banner {
+                        width: 100%;
+                        height: 90vh;
+                        background-color: green;
+                    }
+                    .Section2-div{
+                        height: 25vh;
+                    }
+                    .Section2-images{
+                        width: 100%;
+                        flex-wrap: wrap;
+                    }
+                    .Section2-images_1{
+                        width: 50%;
+                    }
+                    .Section2-images_2{
+                        width: 50%;
+                    }
+                    .Section2-images_3{
+                        width: 50%;
+                    }
+                    .Section2-images_4{
+                        width: 50%;
+                    }
+                    }
+            
+
        
         </style>
     </head>
@@ -224,16 +353,15 @@
         <header>
         <nav class="Trustin-home__menu">
             <div class="Trustin-home-menu__Logo-div">
-                <h4 class="Trustin-home-menu__Logo"><span class="Trustin-home-menu-Logo__span">TRUST'IN</span></h4>
+                <h4 class="Trustin-home-menu__Logo"><span class="Trustin-home-menu-Logo__span"><a href="/">TRUST'IN</a></span></h4>
             </div>
             <div class="trustin-home-body-toggle__div">
-                <ol class= "trustin-home-body__toggle"> <!--[A COPIER]-->
-                    <li class="trustin-home-body-toggle__open">=</li> <!--[A COPIER]-->
-                    <li class="trustin-home-body-toggle__close">x</li> <!--[A COPIER]-->
+                <ol class= "trustin-home-body__toggle">
+                    <li class="trustin-home-body-toggle__open">=</li>
+                    <li class="trustin-home-body-toggle__close">x</li>
                 </ol>
-         
-                <ol class="Trustin-home-menu-liste__menu"> <!--[A COPIER]-->
-                    <li><a href="#">À propos</a></li>
+                <ol class="Trustin-home-menu-liste__menu">
+                    <li><a href="#">Àpropos</a></li>
                     <li><a href="#">Actualités</a></li>
                     <li><a href="#">Influenceurs</a></li>
                     <li><a href="#">Compte</a></li>
@@ -241,50 +369,59 @@
             </div>
         </nav>
         </header>
-        <!--<label for="toggle" class="label-hamburger">☰</label>-->
-
+        <div class="sections">
         <section>
-        <div class="Trustin-home-banner__div">
-            <div class="Trustin-home-banner__1banner">
-                <div class="Trustin-home-banner1__div">
-                    <div class="Trustin-home-banner1__div2">
-                    <h3 class="Trustin-home-banner1__title">Le lorem ipsum</h3>
-                    <p class="Trustin-home-banner1__paragraph"> 
-                        Le lorem ipsum est, en imprimerie, 
-                        une suite de mots sans signification 
-                        utilisée à titre provisoire pour calibrer 
-                        une mise en page, le texte définitif venant 
-                    </p>
-                        <button class="Trustin-home-banner1__button" type="button">Découvrir notre agence</input>
-                    </div>
-
-                    <div class="Trustin-home-banner1-div1">
-                        <div class="Trustin-home-banner1-div1__image1">
-                            <img src="https://img.lemde.fr/2020/09/29/0/0/1200/1500/1328/0/45/0/40f4038_56266-3189930.jpg" class="Trustin-home-banner1-div1-image1__img1" alt="alt text" >
+            <div class="Trustin-home-banner__div" id="flex">
+                <div class="Trustin-home-banner__1banner" id="Trustin-home-banner-1banner__id1">
+                    <div class="Trustin-home-banner1__div">
+                        <div class="Trustin-home-banner1__div2">
+                        <h3 class="Trustin-home-banner1__title">Le lorem ipsum</h3>
+                        <p class="Trustin-home-banner1__paragraph"> 
+                            Le lorem ipsum est, en imprimerie, 
+                            une suite de mots sans signification 
+                            utilisée à titre provisoire pour calibrer 
+                            une mise en page, le texte définitif venant 
+                        </p>
+                            <button class="Trustin-home-banner1__button" type="button">Découvrir notre agence</input>
                         </div>
-
-                        <div class="Trustin-home-banner1-divs23__images">
-                            <div class="Trustin-home-banner1-divs2__images">
-                                <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg" class="Trustin-home-banner1-div1-image1__img2" alt="alt text" >
+                        <div class="Trustin-home-banner1-div1">
+                            <div class="Trustin-home-banner1-div1__image1">
+                                <img src="https://img.lemde.fr/2020/09/29/0/0/1200/1500/1328/0/45/0/40f4038_56266-3189930.jpg" class="Trustin-home-banner1-div1-image1__img1" alt="alt text" >
                             </div>
-                            <div class="Trustin-home-banner1-divs3__images">
-                                <img src="https://png.pngtree.com/illustrations/20190327/ourmid/pngtree-cure-starry-sky-night-sky-star-png-image_38228.jpg" class="Trustin-home-banner1-div1-image1__img3" alt="alt text">
+
+                            <div class="Trustin-home-banner1-divs23__images">
+                                <div class="Trustin-home-banner1-divs2__images">
+                                    <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg" class="Trustin-home-banner1-div1-image1__img2" alt="alt text" >
+                                </div>
+                                <div class="Trustin-home-banner1-divs3__images">
+                                    <img src="https://png.pngtree.com/illustrations/20190327/ourmid/pngtree-cure-starry-sky-night-sky-star-png-image_38228.jpg" class="Trustin-home-banner1-div1-image1__img3" alt="alt text">
+                                </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
+                <div class="Trustin-home-banner__2banner" id="Trustin-home-banner-1banner__id2">
+                    <img src="https://img.lemde.fr/2020/09/29/0/0/1200/1500/1328/0/45/0/40f4038_56266-3189930.jpg" class="Trustin-home-banner1-div1-image1__img4" alt="alt text" >
                 </div>
-
-            <div class="Trustin-home-banner__2banner">
-                <img src="https://img.lemde.fr/2020/09/29/0/0/1200/1500/1328/0/45/0/40f4038_56266-3189930.jpg" class="Trustin-home-banner1-div1-image1__img4" alt="alt text" >
             </div>
-        </div>
         </section>
+        <section class="Section2">
+            <div class="Section2-div">
+                <h5 class="Section2__title">LE LOREM IPSUM</h5>
+                <h1 class="Section2-big__title">LOREM IPSUM WORD</h1>
+                <p class="Section2__description">Jellysmack helps creators grow their communities and maximize <br> their earnings across multiple social media platforms.</p>
+            </div>
+            <div class="Section2-images">
+                <div class="Section2-images_1"><img src="https://img.lemde.fr/2020/09/29/0/0/1200/1500/1328/0/45/0/40f4038_56266-3189930.jpg" class="Trustin-home-banner1-div1-image1__img4" alt="alt text" ></div>
+                <div class="Section2-images_2"><img src="https://img.lemde.fr/2020/09/29/0/0/1200/1500/1328/0/45/0/40f4038_56266-3189930.jpg" class="Trustin-home-banner1-div1-image1__img4" alt="alt text" ></div>
+                <div class="Section2-images_3"><img src="https://img.lemde.fr/2020/09/29/0/0/1200/1500/1328/0/45/0/40f4038_56266-3189930.jpg" class="Trustin-home-banner1-div1-image1__img4" alt="alt text" ></div>
+                <div class="Section2-images_4"><img src="https://img.lemde.fr/2020/09/29/0/0/1200/1500/1328/0/45/0/40f4038_56266-3189930.jpg" class="Trustin-home-banner1-div1-image1__img4" alt="alt text" ></div>
+            </div>
+        </section>
+        </div>
         <script> 
             let toggle = document.querySelector('.trustin-home-body__toggle');
             let body = document.querySelector('body');
-
             toggle.addEventListener('click', function() {
                 body.classList.toggle('open')
             })
