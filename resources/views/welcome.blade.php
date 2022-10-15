@@ -22,25 +22,19 @@
                 Display: flex;
                 background-color: #000;
             }
-            .Trustin-home-menu__List {
-                display: flex;
-            }
             .Trustin-home-menu__Logo-div{
                 width: 50%;
                 padding-left: 10%;
-
-            }
-            .Trustin-home-menu__List-div{
-                width: 50%;
-                padding-right: 10%
             }
             .Trustin-home-menu__Logo{
                 color:white;
             }
-            .Trustin-home-menu__List{
+            .Trustin-home-menu-liste__menu{
+                display: flex;
                 color:white;
-                list-style-type: none;
                 margin-top: 30px;
+                width: 50%;
+                padding-right: 10%
             }
             li {
                 margin-left : 30px
@@ -48,8 +42,6 @@
             .Trustin-home-menu-Logo__span{
                 font-size: 25px;
             }
-
-
             .Trustin-home-banner__div{
                 display:flex;
                 height: 90vh;
@@ -87,7 +79,6 @@
             .Trustin-home-banner1-divs3__images{
                 background-color:pink
             }
-
             .Trustin-home-banner1__button{
                 background-color: black;
                 color: #FFF;
@@ -115,7 +106,6 @@
                 height: 100%;
                 object-fit: cover;
             }
-
             .Trustin-home-banner1-div1-image1__img3{
                 width: 100%;
                 height: 100%;
@@ -126,48 +116,134 @@
                 height: 100%;
                 object-fit: cover;
             }
+            .trustin-home-body-toggle__open{
+                    color: #fff
+            }
+            .trustin-home-body-toggle__close{
+                color: #fff
+            }
+            ol {
+                list-style-type: none;
+            }
+            .Trustin-home-menu-Logo__span{
+                z-index: 20;
+            }
             /*---------[ MEDIA QUERIES ]---------*/
-            @media only screen and (max-width: 1200px){
+            .trustin-home-body__toggle{
+                    display: none; 
+                }
+            /* @media only screen and (max-width: 1200px){
                 .Trustin-home-banner1__div2{
                     margin: 85px;
                 }
-           
-            }
+            } */
             @media only screen and (max-width: 867px){
-                .Trustin-home-banner1__div2{
+                /* .Trustin-home-banner1__div2{
                     margin: 55px;
-                }     
+                }      */
+                .Trustin-home-banner1__div2 {
+                    margin: 40px;
+                }
                 .Trustin-home-banner1-div1 {
-                display: flex;
-                position: absolute;
-                width: 50%;
-                height: 40%;
-                bottom: -4%;
+                    display: flex;
+                    position: absolute;
+                    width: 50%;
+                    height: 40%;
+                    bottom: -4%;
                 }       
             }
             @media only screen and (max-width: 768px){
+                .trustin-home-body__toggle{
+                    display: block;
+                    cursor: pointer;
+                    position: relative;
+                    z-index: 20;
+                }
+                .trustin-home-body-toggle__open {
+                    display: block;
+                    font-size: 2rem;
+                    float: right;
+                    margin-right: 23%;
+                }
+                .trustin-home-body-toggle__div{
+                    width: 50%;
+                }
+                .trustin-home-body-toggle__close {
+                    float: right;
+                    margin-right: 23%;
+                    display: none;
+                    font-size: 2rem;
+                }
+                .open .trustin-home-body-toggle__open{
+                    display: none;
+                }
+                .open .trustin-home-body-toggle__close{
+                    display: block;
+                }
+                .Trustin-home-menu__Logo-div{
+                    width: 50%;
+                    padding-left: 10%;
+                }
+                .Trustin-home-menu__Logo-div{
+                    /* position: relative; */
+                    z-index: 20;
+                }
                 .Trustin-home-banner1-div1{
                     bottom: -3.7%;
                 }
-            }
+                .Trustin-home-menu-liste__menu {
+                    position: absolute;
+                    top: 7%;
+                    left: 0px;
+                    width: 50%;
+                    height: 90vh;
+                    background: red;
+                    flex-direction: column;
+                    padding: 2rem;
+                    justify-content: space-around;
+                    transform: translateX(-100%);
+                    transition: transform 1s;
+                }
+                .open .Trustin-home-menu-liste__menu {
+                    transform: translateX(0);
+                }
+                }
+                @media only screen and (max-width: 425px){
+                    .Trustin-home-banner1__div2 {
+                        margin: 25px;
+                    }
+                    .Trustin-home-banner1__title {
+                        font-size: 15px;
+                        color: #fff;
+                    }
+                }
+       
         </style>
     </head>
     <body class="trustin-home__body">
+        <header>
         <nav class="Trustin-home__menu">
             <div class="Trustin-home-menu__Logo-div">
                 <h4 class="Trustin-home-menu__Logo"><span class="Trustin-home-menu-Logo__span">TRUST'IN</span></h4>
             </div>
-            <div class="Trustin-home-menu__List-div">
-                <ul class="Trustin-home-menu__List">
-                    <li>À propos</li>
-                    <li>Actualités</li>
-                    <li>Influenceurs</li>
-                    <li>Compte</li>
-                </ul>
+            <div class="trustin-home-body-toggle__div">
+                <ol class= "trustin-home-body__toggle"> <!--[A COPIER]-->
+                    <li class="trustin-home-body-toggle__open">=</li> <!--[A COPIER]-->
+                    <li class="trustin-home-body-toggle__close">x</li> <!--[A COPIER]-->
+                </ol>
+         
+                <ol class="Trustin-home-menu-liste__menu"> <!--[A COPIER]-->
+                    <li><a href="#">À propos</a></li>
+                    <li><a href="#">Actualités</a></li>
+                    <li><a href="#">Influenceurs</a></li>
+                    <li><a href="#">Compte</a></li>
+                </ol>
             </div>
         </nav>
+        </header>
         <!--<label for="toggle" class="label-hamburger">☰</label>-->
 
+        <section>
         <div class="Trustin-home-banner__div">
             <div class="Trustin-home-banner__1banner">
                 <div class="Trustin-home-banner1__div">
@@ -179,7 +255,7 @@
                         utilisée à titre provisoire pour calibrer 
                         une mise en page, le texte définitif venant 
                     </p>
-                        <button class="Trustin-home-banner1__button" type="">Découvrir notre agence</input>
+                        <button class="Trustin-home-banner1__button" type="button">Découvrir notre agence</input>
                     </div>
 
                     <div class="Trustin-home-banner1-div1">
@@ -204,6 +280,14 @@
                 <img src="https://img.lemde.fr/2020/09/29/0/0/1200/1500/1328/0/45/0/40f4038_56266-3189930.jpg" class="Trustin-home-banner1-div1-image1__img4" alt="alt text" >
             </div>
         </div>
+        </section>
+        <script> 
+            let toggle = document.querySelector('.trustin-home-body__toggle');
+            let body = document.querySelector('body');
 
+            toggle.addEventListener('click', function() {
+                body.classList.toggle('open')
+            })
+        </script>
     </body>
 </html>
