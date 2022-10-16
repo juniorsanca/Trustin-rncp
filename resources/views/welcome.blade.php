@@ -17,6 +17,7 @@
         <style>
             body {
                 font-family: 'Nunito', sans-serif;
+                margin: 0;
             }
             .Trustin-home__menu {
                 Display: flex;
@@ -228,6 +229,35 @@
                 width: 100%;
                 display: flex;
                 flex-wrap: wrap;
+            }
+            /*--------[SECTION5]-------*/
+            .Section5-header__title{
+                margin: 0;
+            }
+            .Section5{
+                background-color: #000;
+                padding-bottom: 50px;
+            }
+            .Section5-header{
+                text-align: center;
+                color: #fff;
+                padding-top: 30px;
+            }
+            .section-body{
+                display: flex;
+                width: 70%;
+                flex-wrap: wrap;
+                margin-left: 15%;
+                margin-right: 15%;
+                margin-top: 3%;
+                color: #fff;
+            }
+            .Section5-body-div{
+                width: 31%;
+                border: 2px solid #fff;
+                margin: 1%;
+                text-align: center;
+                padding: 15px;
             }
             @media only screen and (max-width: 1440px){
             .Section2{
@@ -445,6 +475,22 @@
                     .Section2-images_4{
                         width: 50%;
                     }
+                    /*-------[SECTION5]-------*/
+                    .section-body {
+                        width: 100%;
+                        display: flex;
+                        flex-wrap: wrap;
+                        color: #fff;
+                        margin-left: 0%;
+                        margin-right: 0%;
+                    }
+                    .Section5-body-div {
+                        width: 48%;
+                        border: 2px solid #fff;
+                        margin: 1%;
+                        text-align: center;
+                        padding: 15px;
+                    }
                     }
             
        
@@ -565,6 +611,65 @@
                 </div>
             </div>
         </section>
+        <section class="Section5">
+            <div class="Section5-header">
+                <h2 class="Section5-header__title">INFLUENCE POUR VOUS</h2>
+                <p>Parce que faire de l’influence, ça devrait être à la portée de tout le monde.</p>
+            </div>
+            <div class="section-body">
+                    <div class="Section5-body-div">
+                        <h3>Automatisé</h3>
+                        <p>Le lorem ipsum est, en imprimerie, 
+                            une suite de mots sans signification 
+                            utilisée à titre provisoire pour calibrer 
+                            une mise en page, le texte définitif venant 
+                        </p>
+                    </div>
+                    <div class="Section5-body-div">
+                        <h3>Automatisé</h3>
+                        <p>Le lorem ipsum est, en imprimerie, 
+                            une suite de mots sans signification 
+                            utilisée à titre provisoire pour calibrer 
+                            une mise en page, le texte définitif venant 
+                        </p>
+                    </div>
+                    <div class="Section5-body-div">
+                        <h3>Automatisé</h3>
+                        <p>Le lorem ipsum est, en imprimerie, 
+                            une suite de mots sans signification 
+                            utilisée à titre provisoire pour calibrer 
+                            une mise en page, le texte définitif venant 
+                        </p>
+                    </div>
+                    <div class="Section5-body-div">
+                        <h3>Automatisé</h3>
+                        <p>Le lorem ipsum est, en imprimerie, 
+                            une suite de mots sans signification 
+                            utilisée à titre provisoire pour calibrer 
+                            une mise en page, le texte définitif venant 
+                        </p>
+                    </div>
+                    <div class="Section5-body-div">
+                        <h3>Automatisé</h3>
+                        <p>Le lorem ipsum est, en imprimerie, 
+                            une suite de mots sans signification 
+                            utilisée à titre provisoire pour calibrer 
+                            une mise en page, le texte définitif venant 
+                        </p>
+                    </div>
+                    <div class="Section5-body-div">
+                        <h3>Automatisé</h3>
+                        <p>Le lorem ipsum est, en imprimerie, 
+                            une suite de mots sans signification 
+                            utilisée à titre provisoire pour calibrer 
+                            une mise en page, le texte définitif venant 
+                        </p>
+                    </div>
+            </div>
+
+
+        </section>
+
         </div>
         <script> 
             let toggle = document.querySelector('.trustin-home-body__toggle');
