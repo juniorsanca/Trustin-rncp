@@ -50,6 +50,8 @@
             .Trustin-home-banner__1banner{
                 width: 50%;
                 margin-top: 1px;
+                position: relative;
+                height: 100%;
                 background-color: black;
             }
             .Trustin-home-banner__2banner{
@@ -59,7 +61,7 @@
             .Trustin-home-banner1-div1{
                 display: flex;
                 position: absolute;
-                width: 50%;
+                width: 100%;
                 height: 40%;
                 bottom: 0;
             }
@@ -87,7 +89,11 @@
                 border-width: thin;
             }
             .Trustin-home-banner1__div2{
-                margin: 105px;
+                /* margin: 105px; */
+                width: 100%;
+                height: 40%;
+                bottom: 0;
+                padding: 50px;
             }
             .Trustin-home-banner1__title{
                 font-size: xx-large;
@@ -209,7 +215,7 @@
                 width: 50%;
             }
             .Section4-4images-group-img__div{
-                padding: 30px;
+                padding: 13px;
                 background-color: #000;
                 min-height: 100%;
                 color: #fff;
@@ -231,6 +237,9 @@
                 flex-wrap: wrap;
             }
             /*--------[SECTION5]-------*/
+            .Section5{
+                border-top: 2px solid #fff;
+            }
             .Section5-header__title{
                 margin: 0;
             }
@@ -259,6 +268,28 @@
                 text-align: center;
                 padding: 15px;
             }
+            /*--------[SECTION6]-------*/
+            .Section6{
+                height: 50vh;
+            }
+            .Section6-body__div{
+                width: 50%;
+                height: 100%;
+            }
+            .Section6-body {
+                height: 100%;
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                border: 2px solid #fff;
+            }
+            .Section6-body-div__body{
+                padding: 30px;
+            }
+            .Section6-body__div{
+                color: #fff;
+                background-color: #000;
+            }
             @media only screen and (max-width: 1440px){
             .Section2{
                 background-color:#000;
@@ -283,9 +314,6 @@
                     cursor: pointer;
                     position: relative;
                     z-index: 20;
-                }
-                .Trustin-home-banner1__div2 {
-                    margin: 43px;
                 }
                 .Trustin-home-banner1-div1 {
                     bottom: -1.7%;
@@ -381,9 +409,6 @@
                     .Trustin-home-banner1__title {
                         font-size: 21px;
                         color: #fff;
-                    }
-                    .Trustin-home-banner1__div2 {
-                        margin: 25px;
                     }
                     .Section4-imgs{
                         width: 100%;
@@ -490,6 +515,10 @@
                         margin: 1%;
                         text-align: center;
                         padding: 15px;
+                    }
+                    /*---------[SECTION6]--------*/
+                    .Section6-body-div__body{
+                        padding: 10px;
                     }
                     }
             
@@ -666,8 +695,79 @@
                         </p>
                     </div>
             </div>
-
-
+        </section>
+        <section class="Section6">
+            <div class="Section6-body">
+                <div class="Section6-body__div"><img src="https://img.lemde.fr/2020/09/29/0/0/1200/1500/1328/0/45/0/40f4038_56266-3189930.jpg" class="Allimg" alt="home-news4" ></div>
+                <div class="Section6-body__div">
+                    <div class="Section6-body-div__body">            
+                        <h3>LVMH met en vente son surplus de tissus auprès du grand public</h3>
+                        <p>
+                            A moins d’être en déconnexion totale des réseaux sociaux, vous avez sûrement vu
+                            passer les images du dernier défilé Coperni. Alors que la Fashion Week parisienne 
+                            s’apprête à célébrer ses derniers show jusqu’à mercredi, la marque a créé un buzz 
+                            stratosphérique avec son final, où la mannequin Bella Hadid s’est faite vaporiser une robe
+                            à même le corps, grâce à une peinture qui se transforme en textile au contact de la peau.
+                            Mais au-delà de cette performance impressionnante, la marque n’est pas à la hauteur de
+                            ses discours engagés pour ce défilé nommé “Coperni Femme”, au singulier.
+                        </p>
+                    </div>
+                </div>
+                <div class="Section6-body__div">
+                    <div class="Section6-body-div__body">            
+                        <h3>Buzz et féminisme washing au défilé Coperni</h3>
+                        <p>
+                            A moins d’être en déconnexion totale des réseaux sociaux, vous avez sûrement vu
+                            A moins d’être en déconnexion totale des réseaux sociaux, vous avez sûrement vu
+                            passer les images du dernier défilé Coperni. Alors que la Fashion Week parisienne 
+                            s’apprête à célébrer ses derniers show jusqu’à mercredi, la marque a créé un buzz 
+                            stratosphérique avec son final, où la mannequin Bella Hadid s’est faite vaporiser une robe
+                            à même le corps, grâce à une peinture qui se transforme en textile au contact de la peau.
+                            Mais au-delà de cette performance impressionnante, la marque n’est pas à la hauteur de
+                            ses discours engagés pour ce défilé nommé “Coperni Femme”, au singulier.
+                        </p>
+                    </div>
+                </div>
+                <div class="Section6-body__div"><img src="https://img.lemde.fr/2020/09/29/0/0/1200/1500/1328/0/45/0/40f4038_56266-3189930.jpg" class="Allimg" alt="home-news4" ></div>
+            </div>
+        </section>
+        <section class="SectionFooter">
+                    <div>
+                        <div>
+                            <ol>
+                                <li></li>
+                                <li></li>
+                            </ol>
+                        </div>
+                        <div>
+                            <ol>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ol>
+                        </div>
+                        <div>
+                            <ol>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ol>
+                        </div>
+                        <div>
+                            <ol>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div>
+                        <ol>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ol>
+                    </div>
         </section>
 
         </div>
