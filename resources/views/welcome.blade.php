@@ -89,11 +89,10 @@
                 border-width: thin;
             }
             .Trustin-home-banner1__div2{
-                /* margin: 105px; */
                 width: 100%;
                 height: 40%;
                 bottom: 0;
-                padding: 50px;
+                padding: 3em;
             }
             .Trustin-home-banner1__title{
                 font-size: xx-large;
@@ -270,6 +269,9 @@
             }
             /*--------[SECTION6]-------*/
             .Section6{
+                height: 100vh;
+            }
+            .Section6__div{
                 height: 50vh;
             }
             .Section6-body__div{
@@ -290,6 +292,51 @@
                 color: #fff;
                 background-color: #000;
             }
+            /*-------[SECTION7]-------*/
+            .SectionFooter{
+                height: 75vh;
+            }
+            .SectionFooter-1{
+                display: flex;
+                background-color: #000;
+                color: #fff;
+                padding: 50px;
+                height: 60%;
+                border-bottom: 5px solid #fff;
+            }
+            .SectionFooter-1__div{
+                width: 25%;
+                padding-top: 5%;
+            }
+            .SectionFooter-2{
+                height: 40%;
+                margin: 0;
+                background-color: #000;
+            }
+            .SectionFooter-2__ol{
+                margin: 0;
+                display: flex;
+                padding: 40px;
+                background-color: #000;
+            }
+            .SectionFooter-2__1{
+                width: 60%;
+                font-size: 100px;
+                color: #fff;
+            }
+            .SectionFooter-2__2{
+                margin-top: 6%;
+                width: 20%;
+                font-size: 25px;
+                color: #fff;
+            }         
+            .SectionFooter-2__3{
+                width: 20%;
+                margin-top: 6%;
+                color: #fff;
+            }
+
+
             @media only screen and (max-width: 1440px){
             .Section2{
                 background-color:#000;
@@ -383,6 +430,16 @@
                 }
                 .Section2-div{
                     height: 40vh;
+                }
+                /*------[SECTIONFooter]------*/
+                .SectionFooter-1__div{
+                    font-size: small;
+                }
+                .SectionFooter-2__1{
+                    font-size: 46px;
+                }
+                .SectionFooter-2__2{
+                    font-size: 13px;
                 }
             }
                 @media only screen and (max-width: 425px){
@@ -520,7 +577,46 @@
                     .Section6-body-div__body{
                         padding: 10px;
                     }
+                    .Trustin-home-banner1__div2{
+                        width: 100%;
+                        height: 40%;
+                        bottom: 0;
+                        padding: 1em;
                     }
+                    .SectionFooter-1__div{
+                        width: 50%;
+                        padding-top: 10%;
+                    }
+                    .SectionFooter-1{
+                        flex-wrap: wrap;
+                        display: flex;
+                    }
+                    .SectionFooter-1{
+                        padding: 0;
+                    }
+                    li {
+                        margin-left: 0;
+                    }
+                    .SectionFooter-2__ol{
+                        margin: 0;
+                        /* display: flex; */
+                        padding: 40px;
+                    }
+                    .SectionFooter-2__1{
+                        font-size: 17px;
+                        width: 100%;
+                    }
+                    .SectionFooter-2__2{
+                        margin-top: 6%;
+                        width: 100%;
+                    }
+                    .SectionFooter-2__ol{
+                        display: block;
+                    }
+                    .SectionFooter-2__3{
+                        width: 100%;
+                    }
+                }
             
        
         </style>
@@ -697,6 +793,7 @@
             </div>
         </section>
         <section class="Section6">
+            <div class="Section6__div">
             <div class="Section6-body">
                 <div class="Section6-body__div"><img src="https://img.lemde.fr/2020/09/29/0/0/1200/1500/1328/0/45/0/40f4038_56266-3189930.jpg" class="Allimg" alt="home-news4" ></div>
                 <div class="Section6-body__div">
@@ -730,42 +827,44 @@
                 </div>
                 <div class="Section6-body__div"><img src="https://img.lemde.fr/2020/09/29/0/0/1200/1500/1328/0/45/0/40f4038_56266-3189930.jpg" class="Allimg" alt="home-news4" ></div>
             </div>
+            </div>
         </section>
         <section class="SectionFooter">
-                    <div>
-                        <div>
+                    <div class="SectionFooter-1">
+                        <div class="SectionFooter-1__div">
                             <ol>
-                                <li></li>
-                                <li></li>
+                                <li>LE LOREM IMPSUM</li>
+                                <li>LE LOREM IMPSUM</li>
                             </ol>
                         </div>
-                        <div>
+                        <div class="SectionFooter-1__div">
                             <ol>
-                                <li></li>
-                                <li></li>
-                                <li></li>
+                                <li>LE LOREM IMPSUM</li>
+                                <li>LE LOREM IMPSUM</li>
+                                <li>LE LOREM IMPSUM</li>
                             </ol>
                         </div>
-                        <div>
+                        <div class="SectionFooter-1__div">
                             <ol>
-                                <li></li>
-                                <li></li>
-                                <li></li>
+                                <li>LE LOREM IMPSUM</li>
+                                <li>LE LOREM IMPSUM</li>
+                                <li>LE LOREM IMPSUM</li>
                             </ol>
                         </div>
-                        <div>
+                        <div class="SectionFooter-1__div">
                             <ol>
-                                <li></li>
-                                <li></li>
-                                <li></li>
+                                <li>LE LOREM IMPSUM</li>
+                                <li>LE LOREM IMPSUM</li>
+                                <li>LE LOREM IMPSUM</li>
                             </ol>
                         </div>
                     </div>
-                    <div>
-                        <ol>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+
+                    <div class="SectionFooter-2">
+                        <ol class="SectionFooter-2__ol">
+                            <li class="SectionFooter-2__1">LOREM IMPSUM</li>
+                            <li class="SectionFooter-2__2">LE LOREM IMPSUM</li>
+                            <li class="SectionFooter-2__3">F. I. L. T. P. Y.</li>
                         </ol>
                     </div>
         </section>
