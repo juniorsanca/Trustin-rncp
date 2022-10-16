@@ -96,7 +96,7 @@
                 font-size: large;
                 color: #fff;
             }
-            .Trustin-home-banner1-div1-image1__img1{
+            .Allimg{
                 width: 100%;
                 height: 100%;
                 object-fit: cover;
@@ -132,6 +132,9 @@
                 display: none; 
             }
             /*--------[ SECTION2 ]--------*/
+            .Section2{
+                height: 100vh;
+            }
             .Section2-div{
                 background-color:#000;
                 height: 55vh;
@@ -156,24 +159,51 @@
             }
             .Section2-images{
                 width: 100%;
+                height: 45vh;
                 display: flex;
             }
             .Section2-images_1{
                 width: 25%;
+                border-right: 2px solid #fff;
             }
             .Section2-images_2{
                 width: 25%;
+                border-right: 2px solid #fff;
             }
             .Section2-images_3{
                 width: 25%;
+                border-right: 2px solid #fff;
             }
             .Section2-images_4{
                 width: 25%;
             }
+            /*------[ SECTION3 ]-----*/
+            .Section3{
+                height: 100vh;
+                background-color: red;
+            }
+            .Section3-4images-group-img{
+                width: 50%;
+            }
+            .Section3-imgs-big-img{
+                width: 100%;
+            }
+            .Section3-big-img{
+                width: 100%;
+                min-height: 100%;
+            }
+            .Section3-imgs{
+                width: 100%;
+                display: flex;
+            }
+            .Section3-4images-group{
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+            }
             @media only screen and (max-width: 1440px){
             .Section2{
                 background-color:#000;
-                height: 50vh;
             }
             .Section2-big__title {
                 color: #fff;
@@ -241,7 +271,6 @@
                 .open .Trustin-home-menu-liste__menu {
                     transform: translateX(0);
                 }
-
                 /*------[SECTION2]-----*/
                 .Section2-big__title {
                     color: #fff;
@@ -258,7 +287,7 @@
                 }
                 .Section2{
                     background-color: #000;
-                    height: 25vh;
+                    height: 85vh;
                 }
                 .Section2-div{
                     height: 40vh;
@@ -296,7 +325,25 @@
                         height: 40%;
                         bottom: 0;
                     } 
+                    #flexsection3 { 
+                        display: flex; 
+                        flex-direction: column;
+                        }
+                        #flexsection3 > #Section3-4images-group-id1 { order: 2; }
+                        #flexsection3 > #Section3-4images-group-id2 { order: 1; }
+                    .Trustin-home-banner1-div1 {
+                        height: 40%;
+                        bottom: 0;
+                    } 
                     /*------[SECTION2]-----*/
+                    .Section2{
+                        height: auto;
+                    }
+                    .Section2-images {
+                        width: 100%;
+                        height: auto;
+                        display: flex;
+                    }
                     .Section2__description {
                         color: #fff;
                         margin: 0px;
@@ -314,14 +361,12 @@
                         text-align: center;
                         margin: 0;
                         font-size: 23px;
-                        /* padding: 10px; */
                     }
                     .Trustin-home-banner__div{
                         height: auto;
                     }
                     .Trustin-home-banner__2banner {
                         width: 100%;
-                        height: 90vh;
                         background-color: green;
                     }
                     .Section2-div{
@@ -330,12 +375,14 @@
                     .Section2-images{
                         width: 100%;
                         flex-wrap: wrap;
+                        border-top: 1px solid #fff;
                     }
                     .Section2-images_1{
                         width: 50%;
                     }
                     .Section2-images_2{
                         width: 50%;
+                        border-right: 0px;
                     }
                     .Section2-images_3{
                         width: 50%;
@@ -345,7 +392,6 @@
                     }
                     }
             
-
        
         </style>
     </head>
@@ -386,7 +432,7 @@
                         </div>
                         <div class="Trustin-home-banner1-div1">
                             <div class="Trustin-home-banner1-div1__image1">
-                                <img src="https://img.lemde.fr/2020/09/29/0/0/1200/1500/1328/0/45/0/40f4038_56266-3189930.jpg" class="Trustin-home-banner1-div1-image1__img1" alt="alt text" >
+                                <img src="https://img.lemde.fr/2020/09/29/0/0/1200/1500/1328/0/45/0/40f4038_56266-3189930.jpg" class="Allimg" alt="alt text" >
                             </div>
 
                             <div class="Trustin-home-banner1-divs23__images">
@@ -412,10 +458,23 @@
                 <p class="Section2__description">Jellysmack helps creators grow their communities and maximize <br> their earnings across multiple social media platforms.</p>
             </div>
             <div class="Section2-images">
-                <div class="Section2-images_1"><img src="https://img.lemde.fr/2020/09/29/0/0/1200/1500/1328/0/45/0/40f4038_56266-3189930.jpg" class="Trustin-home-banner1-div1-image1__img4" alt="alt text" ></div>
-                <div class="Section2-images_2"><img src="https://img.lemde.fr/2020/09/29/0/0/1200/1500/1328/0/45/0/40f4038_56266-3189930.jpg" class="Trustin-home-banner1-div1-image1__img4" alt="alt text" ></div>
-                <div class="Section2-images_3"><img src="https://img.lemde.fr/2020/09/29/0/0/1200/1500/1328/0/45/0/40f4038_56266-3189930.jpg" class="Trustin-home-banner1-div1-image1__img4" alt="alt text" ></div>
-                <div class="Section2-images_4"><img src="https://img.lemde.fr/2020/09/29/0/0/1200/1500/1328/0/45/0/40f4038_56266-3189930.jpg" class="Trustin-home-banner1-div1-image1__img4" alt="alt text" ></div>
+                <div class="Section2-images_1"><img src="https://img.lemde.fr/2020/09/29/0/0/1200/1500/1328/0/45/0/40f4038_56266-3189930.jpg" class="Allimg" alt="img1" ></div>
+                <div class="Section2-images_2"><img src="https://img.lemde.fr/2020/09/29/0/0/1200/1500/1328/0/45/0/40f4038_56266-3189930.jpg" class="Allimg" alt="img2" ></div>
+                <div class="Section2-images_3"><img src="https://img.lemde.fr/2020/09/29/0/0/1200/1500/1328/0/45/0/40f4038_56266-3189930.jpg" class="Allimg" alt="img3" ></div>
+                <div class="Section2-images_4"><img src="https://img.lemde.fr/2020/09/29/0/0/1200/1500/1328/0/45/0/40f4038_56266-3189930.jpg" class="Allimg" alt="img4" ></div>
+            </div>
+        </section>
+        <section class="Section3">
+            <div class="Section3-imgs" id="flexsection3">
+                <div class="Section3-4images-group" id="Section3-4images-group-id1">
+                    <div class="Section3-4images-group-img"><img src="https://img.lemde.fr/2020/09/29/0/0/1200/1500/1328/0/45/0/40f4038_56266-3189930.jpg" class="Allimg" alt="home-news1" ></div>
+                    <div class="Section3-4images-group-img"><img src="https://img.lemde.fr/2020/09/29/0/0/1200/1500/1328/0/45/0/40f4038_56266-3189930.jpg" class="Allimg" alt="home-news2" ></div>
+                    <div class="Section3-4images-group-img"><img src="https://img.lemde.fr/2020/09/29/0/0/1200/1500/1328/0/45/0/40f4038_56266-3189930.jpg" class="Allimg" alt="home-news3" ></div>
+                    <div class="Section3-4images-group-img"><img src="https://img.lemde.fr/2020/09/29/0/0/1200/1500/1328/0/45/0/40f4038_56266-3189930.jpg" class="Allimg" alt="home-news4" ></div>
+                </div>
+                <div class="Section3-imgs-big-img" id="Section3-4images-group-id2">
+                    <img class="Section3-big-img" src="https://img.lemde.fr/2020/09/29/0/0/1200/1500/1328/0/45/0/40f4038_56266-3189930.jpg" class="Allimg" alt="home-news5" >
+                </div>
             </div>
         </section>
         </div>
