@@ -179,7 +179,6 @@
             }
             /*------[ SECTION3 ]-----*/
             .Section3{
-                height: 100vh;
                 background-color: red;
             }
             .Section3-4images-group-img{
@@ -201,6 +200,35 @@
                 display: flex;
                 flex-wrap: wrap;
             }
+            /*------[ SECTION4 ]-----*/
+            .Section4{
+                background-color: blue;
+            }
+            .Section4-4images-group-img{
+                width: 50%;
+            }
+            .Section4-4images-group-img__div{
+                padding: 30px;
+                background-color: #000;
+                min-height: 100%;
+                color: #fff;
+            }
+            .Section4-imgs-big-img{
+                width: 100%;
+            }
+            .Section4-big-img{
+                width: 100%;
+                min-height: 100%;
+            }
+            .Section4-imgs{
+                width: 100%;
+                display: flex;
+            }
+            .Section4-4images-group{
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+            }
             @media only screen and (max-width: 1440px){
             .Section2{
                 background-color:#000;
@@ -214,6 +242,12 @@
             }
             /*---------[ MEDIA QUERIES ]---------*/
             @media only screen and (max-width: 768px){
+                h3 {
+                    font-size: 11px;
+                }
+                p {
+                    font-size: 8px;
+                }
                 .trustin-home-body__toggle{
                     display: block;
                     cursor: pointer;
@@ -294,6 +328,12 @@
                 }
             }
                 @media only screen and (max-width: 425px){
+                    h3 {
+                        font-size: 12px;
+                    }
+                    p {
+                        font-size: 8px;
+                    }
                     .Trustin-home-banner__1banner {
                         width: 100%;
                         margin-top: 1px;
@@ -315,6 +355,11 @@
                     .Trustin-home-banner1__div2 {
                         margin: 25px;
                     }
+                    .Section4-imgs{
+                        width: 100%;
+                        display: block;
+                    }
+                    /*---------[SECTION1]--------*/
                     #flex { 
                         display: flex; 
                         flex-direction: column;
@@ -325,14 +370,24 @@
                         height: 40%;
                         bottom: 0;
                     } 
+                    /*---------[SECTION3]*/
                     #flexsection3 { 
                         display: flex; 
                         flex-direction: column;
                         }
                         #flexsection3 > #Section3-4images-group-id1 { order: 2; }
                         #flexsection3 > #Section3-4images-group-id2 { order: 1; }
-                    .Trustin-home-banner1-div1 {
-                        height: 40%;
+                    .Allimg {
+                        bottom: 0;
+                    } 
+                    /*---------[SECTION4]--------*/
+                    #flexsection4 { 
+                        display: flex; 
+                        flex-direction: column;
+                        }
+                        #flexsection4 > #Section4-4images-group-id1 { order: 2; }
+                        #flexsection4 > #Section4-4images-group-id2 { order: 1; }
+                    .Allimg {
                         bottom: 0;
                     } 
                     /*------[SECTION2]-----*/
@@ -474,6 +529,39 @@
                 </div>
                 <div class="Section3-imgs-big-img" id="Section3-4images-group-id2">
                     <img class="Section3-big-img" src="https://img.lemde.fr/2020/09/29/0/0/1200/1500/1328/0/45/0/40f4038_56266-3189930.jpg" class="Allimg" alt="home-news5" >
+                </div>
+            </div>
+        </section>
+        <section class="Section4">
+            <div class="Section4-imgs" id="flexsection4">
+                <div class="Section4-imgs-big-img" id="Section4-4images-group-id2">
+                    <img class="Section4-big-img" src="https://img.lemde.fr/2020/09/29/0/0/1200/1500/1328/0/45/0/40f4038_56266-3189930.jpg" class="Allimg" alt="home-news5" >
+                </div>
+                <div class="Section4-4images-group" id="Section4-4images-group-id1">
+                    <div class="Section4-4images-group-img"><img src="https://img.lemde.fr/2020/09/29/0/0/1200/1500/1328/0/45/0/40f4038_56266-3189930.jpg" class="Allimg" alt="home-news1" ></div>
+                    <div class="Section4-4images-group-img">
+                        <div class="Section4-4images-group-img__div">
+                            <h3>LOREM IMPSUM LOREM IPSUM</h3>
+                            <p>
+                                Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée
+                                à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer
+                                le faux-texte dès qu'il est prêt ou que la mise en page est achevée. Généralement, 
+                                on utilise un texte en faux latin, le Lorem ipsum ou Lipsum
+                            </p>
+                        </div>
+                    </div>
+                    <div class="Section4-4images-group-img">
+                        <div class="Section4-4images-group-img__div">
+                            <h3>LOREM IMPSUM LOREM IPSUM</h3>
+                            <p>
+                                Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée
+                                à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer
+                                le faux-texte dès qu'il est prêt ou que la mise en page est achevée. Généralement, 
+                                on utilise un texte en faux latin, le Lorem ipsum ou Lipsum
+                            </p>
+                        </div>
+                    </div>
+                    <div class="Section4-4images-group-img"><img src="https://img.lemde.fr/2020/09/29/0/0/1200/1500/1328/0/45/0/40f4038_56266-3189930.jpg" class="Allimg" alt="home-news4" ></div>
                 </div>
             </div>
         </section>
