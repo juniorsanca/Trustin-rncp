@@ -15,6 +15,9 @@
             Display: flex;
             background-color: #000;
         }
+        .Trustin-home-menu-liste-menu__title{
+            margin-left: 35px;
+        }
         .Trustin-home-menu__Logo-div{
             width: 50%;
             padding-left: 10%;
@@ -29,8 +32,12 @@
             width: 50%;
             padding-right: 10%
         }
-        li {
+        /* li {
             margin-left : 30px
+        } */
+        /*------[ class="SectionFooter-1-div_menu" ]-----*/
+        .SectionFooter-1-div_menu{
+            margin-bottom: 10px;
         }
         .Trustin-home-menu-Logo__span{
             font-size: 25px;
@@ -202,10 +209,11 @@
         /* .Creators-section */
             .Creators-section_images{
                 width: 100%;
-                /* height: 45vh; */
                 display: flex;
+                flex-wrap: wrap;
             }
             .Creators-section_image{
+                height: 75vh;
                 width: 25%;
                 border: 2px solid #fff;
             }
@@ -291,6 +299,10 @@
         .Section6-body-div__body{
             padding: 30px;
         }
+        /*------[ Section6-body-div__body ]------*/
+        /* .Section6-body-div-body_p{
+            font-size: 20px;
+        } */
         .Section6-body__div{
             color: #fff;
             background-color: #000;
@@ -413,6 +425,13 @@
             .open .Trustin-home-menu-liste__menu {
                 transform: translateX(0);
             }
+
+            /*------[PAGE-CREATORS-IMAGES]------*/
+            .Creators-section_image {
+                height: 50vh;
+                width: 25%;
+                border: 2px solid #fff;
+            }
             /*------[SECTION2]-----*/
             .Section2-big__title {
                 color: #fff;
@@ -473,6 +492,11 @@
                 .Section4-imgs{
                     width: 100%;
                     display: block;
+                }
+                /*CREATOR-PAGE-SECTION-ALL-CREATORS*/
+                .Creators-section_image{
+                    width: 50%;
+                    height: 50vh;
                 }
                 /*---------[SECTION1]--------*/
                 #flex { 

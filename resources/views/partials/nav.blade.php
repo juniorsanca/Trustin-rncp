@@ -12,10 +12,10 @@
             <li class="trustin-home-body-toggle__close">x</li>
         </ol>
         <ol class="Trustin-home-menu-liste__menu">
-            <li><a href="#">Àpropos</a></li>
-            <li><a href="#">Actualités</a></li>
-            <li><a href="#">Influenceurs</a></li>
-            <li><a href="#">Compte</a></li>
+            <li class="Trustin-home-menu-liste-menu__title"><a href="#">Àpropos</a></li>
+            <li class="Trustin-home-menu-liste-menu__title"><a href="#">Actualités</a></li>
+            <li class="Trustin-home-menu-liste-menu__title"><a href="#">Influenceurs</a></li>
+            <li class="Trustin-home-menu-liste-menu__title"><a href="#">Compte</a></li>
         </ol>
     </div>
 </nav>
