@@ -290,13 +290,13 @@
         }
         /*-------[SECTION7]-------*/
         .SectionFooter{
-            height: 75vh;
+            height: 100vh;
         }
         .SectionFooter-1{
             display: flex;
             background-color: #000;
             color: #fff;
-            padding: 50px;
+            padding: 60px;
             height: 60%;
             border-bottom: 5px solid #fff;
         }
@@ -312,7 +312,7 @@
         .SectionFooter-2__ol{
             margin: 0;
             display: flex;
-            padding: 40px;
+            padding: 55px;
             background-color: #000;
         }
         .SectionFooter-2__1{
@@ -321,14 +321,14 @@
             color: #fff;
         }
         .SectionFooter-2__2{
-            margin-top: 6%;
+            margin-top: 5%;
             width: 20%;
             font-size: 25px;
             color: #fff;
         }         
         .SectionFooter-2__3{
             width: 20%;
-            margin-top: 6%;
+            margin-top: 9%;
             color: #fff;
         }
         /*--------[ PAGE : CREATOR ]---------*/
