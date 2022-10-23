@@ -25,3 +25,6 @@ Route::get('/creators', function () {
 Route::get('/creator', function () {
     return view('creator');
 });
+Route::get('/news', function () {
+    return view('news');
+});

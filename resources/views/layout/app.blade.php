@@ -13,8 +13,8 @@
             @yield('home-content')
             @yield('creators')
             @yield('creator')
+            @yield('news')
         </div>
-
         @include('partials.footer')
     </body>
 </html>

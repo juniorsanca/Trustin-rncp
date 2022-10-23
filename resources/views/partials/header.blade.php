@@ -331,9 +331,6 @@
             margin-top: 6%;
             color: #fff;
         }
-
-
-
         /*--------[ PAGE : CREATOR ]---------*/
         .Creator{
             width: 100%;
@@ -437,6 +434,50 @@
             width: 150px;
             display: block;
             clear: both;
+        }
+        /*---[ NEWS ]---*/
+        .news{
+            display: flex;
+            padding: 40px;
+            width: 100%;
+        }
+        .news-div1{
+            width: 50%;
+        }
+        .news-div2{
+            width: 50%;
+        }
+        .news-div2-form{
+            display: flex;
+            float: right;
+            width: 50%;
+        }
+        #search{
+            width: 70%;
+            padding: 10px;
+            border: solid;
+        }
+        .news-title{
+            font-size: 20px;
+            margin: 0;
+        }
+        .submit-news{
+            background-color: #000;
+            color: #FFF;
+            width: 30%;
+        }
+        .News-section{
+            width: 100%;
+        }
+        .News-section_images{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .News-section_image{
+            height: 50vh;
+            width: 25%;
+            border: 2px solid #fff;
         }
 
 
@@ -554,6 +595,13 @@
             .Creator-div2-liste-ol-social-medias__numbers{
                 width: 25%;
             }
+            /*---[ NEWS ]---*/
+            .news-div2-form {
+                display: flex;
+                float: right;
+                width: 90%;
+            }
+
             /*------[SECTIONFooter]------*/
             .SectionFooter-1__div{
                 font-size: small;
@@ -605,6 +653,28 @@
                     height: 100%;
                     display: block;
                 }
+                /*---[ NEWS ]---*/
+                .news{
+                    display: block;
+                    padding: 15px;
+                }
+                .News-section_image{
+                    width: 50%;
+                    height: 50vh;
+                }
+                .news-div1 {
+                    width: 100%;
+                }
+                .news-div2{
+                    width: 100%;
+                }
+                .news-text{
+                    font-size: 13px;
+                }
+                .news-div2-form{
+                    margin: 10px;
+                }
+
                 .Creator-div1 {
                     position: relative;
                     width: 100%;
@@ -709,16 +779,6 @@
                 .Section2-image{
                     width: 50%;
                 }
-                /* .Section2-images_2{
-                    width: 50%;
-                    border-right: 0px;
-                }
-                .Section2-images_3{
-                    width: 50%;
-                }
-                .Section2-images_4{
-                    width: 50%;
-                } */
                 /*-------[SECTION5]-------*/
                 .section-body {
                     width: 100%;
