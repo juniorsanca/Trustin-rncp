@@ -28,3 +28,6 @@ Route::get('/creator', function () {
 Route::get('/news', function () {
     return view('news');
 });
+Route::get('/new', function () {
+    return view('new');
+});

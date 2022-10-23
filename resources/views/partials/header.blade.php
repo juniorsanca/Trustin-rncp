@@ -441,6 +441,11 @@
             padding: 40px;
             width: 100%;
         }
+        .new{
+            display: flex;
+            padding: 40px;
+            width: 100%;
+        }
         .news-div1{
             width: 50%;
         }
@@ -473,6 +478,24 @@
             width: 100%;
             display: flex;
             flex-wrap: wrap;
+        }
+        .New-section_images{
+            width: 100%;
+            display: block;
+            flex-wrap: wrap;
+        }
+        .New-section_image {
+            width: 60;
+            margin-left: 25%;
+            width: 50%;
+            border: 2px solid #fff;
+        }
+        .New-section_text{
+            width: 60;
+            width: 50%;
+            margin-left: 25%;
+            margin-bottom: 5%;
+            border: 2px solid #fff;  
         }
         .News-section_image{
             height: 50vh;
@@ -658,6 +681,37 @@
                     display: block;
                     padding: 15px;
                 }
+                .new{
+                    display: block;
+                    padding: 15px;
+                }
+                .New-section_image {
+                    width: 60;
+                    margin-left: 5%;
+                    width: 90%;
+                    border: 2px solid #fff;
+                }
+                .New-section_text {
+                    width: 90%;
+                    margin-left: 5%;
+                    margin-bottom: 5%;
+                    border: 2px solid #fff;
+                }
+                .news-div2-form{
+                    display: flex;
+                }
+                /* .news-div2-form{
+                    margin: 10px;
+                } */
+                /* .news-div2-form {
+                    margin-bottom: 10px;
+                } */
+                .news-div2-form{
+                    
+                }
+                /* .news-div2-form{
+                    width: 100%;
+                } */
                 .News-section_image{
                     width: 50%;
                     height: 50vh;
@@ -672,8 +726,16 @@
                     font-size: 13px;
                 }
                 .news-div2-form{
+                    width: 95%;
+                    display: flex;
                     margin: 10px;
                 }
+                .SectionFooter-1__div-ol{
+                    margin: 0;
+                    padding: 20px;
+                    
+                }
+           
 
                 .Creator-div1 {
                     position: relative;
@@ -807,7 +869,7 @@
                 }
                 .SectionFooter-1__div{
                     width: 50%;
-                    padding-top: 10%;
+                    padding: 3%;
                 }
                 .SectionFooter-1{
                     flex-wrap: wrap;

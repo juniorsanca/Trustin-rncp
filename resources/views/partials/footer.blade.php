@@ -1,27 +1,27 @@
 <section class="SectionFooter">
     <div class="SectionFooter-1">
         <div class="SectionFooter-1__div">
-            <ol>
+            <ol class="SectionFooter-1__div-ol">
                 <li class="SectionFooter-1-div_menu">LE LOREM IMPSUM</li>
                 <li class="SectionFooter-1-div_menu">LE LOREM IMPSUM</li>
             </ol>
         </div>
         <div class="SectionFooter-1__div">
-            <ol>
-                <li class="SectionFooter-1-div_menu">LE LOREM IMPSUM</li>
-                <li class="SectionFooter-1-div_menu">LE LOREM IMPSUM</li>
-                <li class="SectionFooter-1-div_menu">LE LOREM IMPSUM</li>
-            </ol>
-        </div>
-        <div class="SectionFooter-1__div">
-            <ol>
+            <ol class="SectionFooter-1__div-ol">
                 <li class="SectionFooter-1-div_menu">LE LOREM IMPSUM</li>
                 <li class="SectionFooter-1-div_menu">LE LOREM IMPSUM</li>
                 <li class="SectionFooter-1-div_menu">LE LOREM IMPSUM</li>
             </ol>
         </div>
         <div class="SectionFooter-1__div">
-            <ol>
+            <ol class="SectionFooter-1__div-ol">
+                <li class="SectionFooter-1-div_menu">LE LOREM IMPSUM</li>
+                <li class="SectionFooter-1-div_menu">LE LOREM IMPSUM</li>
+                <li class="SectionFooter-1-div_menu">LE LOREM IMPSUM</li>
+            </ol>
+        </div>
+        <div class="SectionFooter-1__div">
+            <ol class="SectionFooter-1__div-ol">
                 <li class="SectionFooter-1-div_menu">LE LOREM IMPSUM</li>
                 <li class="SectionFooter-1-div_menu">LE LOREM IMPSUM</li>
                 <li class="SectionFooter-1-div_menu">LE LOREM IMPSUM</li>
