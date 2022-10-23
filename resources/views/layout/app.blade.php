@@ -12,6 +12,7 @@
             @include('partials.nav')
             @yield('home-content')
             @yield('creators')
+            @yield('creator')
         </div>
 
         @include('partials.footer')

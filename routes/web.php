@@ -22,3 +22,6 @@ Route::get('/', function () {
 Route::get('/creators', function () {
     return view('creators');
 });
+Route::get('/creator', function () {
+    return view('creator');
+});

@@ -32,10 +32,6 @@
             width: 50%;
             padding-right: 10%
         }
-        /* li {
-            margin-left : 30px
-        } */
-        /*------[ class="SectionFooter-1-div_menu" ]-----*/
         .SectionFooter-1-div_menu{
             margin-bottom: 10px;
         }
@@ -122,7 +118,7 @@
             object-fit: cover;
         }
         .trustin-home-body-toggle__open{
-                color: #fff
+            color: #fff
         }
         .trustin-home-body-toggle__close{
             color: #fff
@@ -171,17 +167,6 @@
             width: 25%;
             border-right: 2px solid #fff;
         }
-        /* .Section2-images_2{
-            width: 25%;
-            border-right: 2px solid #fff;
-        }
-        .Section2-images_3{
-            width: 25%;
-            border-right: 2px solid #fff;
-        }
-        .Section2-images_4{
-            width: 25%;
-        } */
         /*------[ SECTION3 ]-----*/
         .Section3{
             background-color: red;
@@ -206,17 +191,16 @@
             flex-wrap: wrap;
         }
         /*------[ CREATORS ]------*/
-        /* .Creators-section */
-            .Creators-section_images{
-                width: 100%;
-                display: flex;
-                flex-wrap: wrap;
-            }
-            .Creators-section_image{
-                height: 75vh;
-                width: 25%;
-                border: 2px solid #fff;
-            }
+        .Creators-section_images{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .Creators-section_image{
+            height: 75vh;
+            width: 25%;
+            border: 2px solid #fff;
+        }
         /*------[ SECTION4 ]-----*/
         .Section4{
             background-color: blue;
@@ -300,9 +284,6 @@
             padding: 30px;
         }
         /*------[ Section6-body-div__body ]------*/
-        /* .Section6-body-div-body_p{
-            font-size: 20px;
-        } */
         .Section6-body__div{
             color: #fff;
             background-color: #000;
@@ -349,6 +330,113 @@
             width: 20%;
             margin-top: 6%;
             color: #fff;
+        }
+
+
+
+        /*--------[ PAGE : CREATOR ]---------*/
+        .Creator{
+            width: 100%;
+            height: 120vh;
+            display: flex;
+        }
+        .Creator-div1{
+            position: relative;
+            width: 50%;
+        }
+        .Creator-div2{
+            padding: 13px;
+            width: 50%;
+        }
+        .Creator-div2-title__div{
+            padding: 10px;
+            background: #000;
+        }
+        .Creator-div2__title{
+            font-size: 40px;
+            color: #FFF;
+            margin: 0;
+            padding: 5px;
+        }
+        .Creator-div2-liste_ol{
+            flex-wrap: wrap;
+            display: flex;
+            width: 100%;
+            padding: 0;
+        }
+        .Creator-div2-liste-ol_social-medias{
+            flex-wrap: wrap;
+            width: 100%;
+            padding: 0;
+        }
+        .Creator-div2-liste-li_social-medias{
+            background-color: #000;
+            padding: 20px;
+            color: #FFF;
+            width: 85%;
+        }
+        .Creator-div2-liste-ol-social-medias__contains{
+            display: flex;
+            width: 100%;
+            margin-bottom: 2px;
+        }
+        .Creator-div2-liste-ol-social-medias__numbers{
+            border-left: solid 3px #fff;
+            background-color: #000;
+            padding: 20px;
+            color: #fff;
+            width: 15%;
+        }
+        .Creator-div2-liste_li{
+            padding: 3px;
+            width: 50%;
+        }
+        .Creator-div2-liste-li-btn_contact{
+            background: #fff;
+            /* color: #FFF; */
+            padding: 25px;
+            width: 100%;
+            border: solid 2px;
+        }
+        .Creator-div2-liste-li_btn{
+            background: #000;
+            color: #FFF;
+            padding: 25px;
+            width: 100%;
+        }
+        .Creator-div2-about-title{
+            background-color: #000;
+            margin-bottom: 5px;
+            color: #fff;
+            padding: 10px;
+        }
+        .Creator-div2-about-p{
+            padding: 10px 10px 30px 10px;
+            background-color: #000;
+            font-size: 18px;
+            color: #fff;
+            margin: 0px;
+        }
+        .Allimg_option{
+            width: 150px
+        }
+        .creator-img{
+            position: absolute;
+            object-fit: cover;
+            z-index: -1;
+            width: 100%;
+            height: 100%;
+        }
+        .creator-img_div{
+            top: 25%;
+            margin-left: 2%;
+            position: relative;
+        }
+        .creator-img_options{
+            border: solid 3px #fff;
+            width: 150px;
+            display: block;
+            clear: both;
         }
 
 
@@ -453,6 +541,19 @@
             .Section2-div{
                 height: 40vh;
             }
+            /*---[ PAGECREATOR ]---*/
+            .Creator-div2{
+                padding: 5px;
+            }
+            .Creator-div2__title{
+                font-size: 25px;
+            }
+            .Creator-div2-liste-li_social-medias{
+                width: 75%;
+            }
+            .Creator-div2-liste-ol-social-medias__numbers{
+                width: 25%;
+            }
             /*------[SECTIONFooter]------*/
             .SectionFooter-1__div{
                 font-size: small;
@@ -497,6 +598,40 @@
                 .Creators-section_image{
                     width: 50%;
                     height: 50vh;
+                }
+                /*---[ CREATOR ]---*/
+                .Creator{
+                    width: 100%;
+                    height: 100%;
+                    display: block;
+                }
+                .Creator-div1 {
+                    position: relative;
+                    width: 100%;
+                }
+                .Creator-div2 {
+                    padding: 5px;
+                    width: 100%;
+                }
+                .Creator-div2-liste-li_social-medias {
+                    background-color: #000;
+                    padding: 20px;
+                    color: #FFF;
+                    width: 70%;
+                }
+                .Creator-div2-liste-ol-social-medias__numbers {
+                    border-left: solid 3px #fff;
+                    background-color: #000;
+                    padding: 20px;
+                    color: #fff;
+                    width: 30%;
+                }
+                .Creator-div2-about-title{
+                    font-size: 15px
+                }
+                .Creator-div2__title{
+                    text-align: center;
+                    font-size: 20px;
                 }
                 /*---------[SECTION1]--------*/
                 #flex { 
