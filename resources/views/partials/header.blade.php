@@ -297,7 +297,7 @@
             background-color: #000;
             color: #fff;
             padding: 60px;
-            height: 60%;
+            height: 55%;
             border-bottom: 5px solid #fff;
         }
         .SectionFooter-1__div{
@@ -305,7 +305,7 @@
             padding-top: 5%;
         }
         .SectionFooter-2{
-            height: 40%;
+            height: 45%;
             margin: 0;
             background-color: #000;
         }
