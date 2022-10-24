@@ -57,7 +57,7 @@
             display: flex;
             position: absolute;
             width: 100%;
-            height: 40%;
+            height: 50%;
             bottom: 0;
         }
         .Trustin-home-banner1-div1__image1{
@@ -87,7 +87,7 @@
             width: 100%;
             height: 40%;
             bottom: 0;
-            padding: 3em;
+            padding: 2em;
         }
         .Trustin-home-banner1__title{
             font-size: xx-large;
@@ -312,7 +312,7 @@
         .SectionFooter-2__ol{
             margin: 0;
             display: flex;
-            padding: 55px;
+            padding-top: 140px;
             background-color: #000;
         }
         .SectionFooter-2__1{

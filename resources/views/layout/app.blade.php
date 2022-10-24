@@ -15,6 +15,7 @@
             @yield('creator')
             @yield('news')
             @yield('new')
+            @yield('in')
         </div>
         @include('partials.footer')
     </body>
